@@ -1,0 +1,115 @@
+/* Background Color*/
+.profile-hero{
+    background-color: rgb(11, 45, 114);
+    padding: 60px 20px;
+    text-align: center;
+    color: #fffefe;
+}
+
+/* My picture in circular form*/
+.profile-pic{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 5px solid #0AC4E0;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+/* My name*/
+.profile-hero h1{
+    font-size: 3rem;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* My Tagline*/
+.tagline{
+    font-size: 1.2rem;
+    color: #0AC4E0 ;
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+
+.zig-zag-alt {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    padding: 80px 10%;
+    background-color: #ffffff; 
+    align-items: center;
+}
+.content-text-alt{
+    text-align: right;
+    order: 2;
+}
+.content-text-alt h2{
+    color: #0992C2;
+    font-size: 2.5rem;
+}
+
+/* Align text to the right*/
+.zig-zag-alt .content-text {
+    text-align: right; 
+}
+
+.description-box-alt {
+   text-align: left;
+   order: 1;
+   border-right: 5px solid #0AC4E0;
+    padding-right: 30px;
+}
+
+
+
+/* Footer Styling */
+footer {
+    background-color: rgb(11, 45, 114); /* Deep Blue */
+    color: #ffffff; /* Cream */
+    text-align: center;
+    padding: 40px 20px;
+}
+
+footer a {
+    color: #0AC4E0; 
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+
+
+
+/* The Header Container */
+.main-header {
+    background-color: #ffffff;
+    padding: 20px 0;
+    border-bottom: 2px solid #0AC4E0; 
+    display: flex;
+    justify-content: center;        
+}
+
+/* Making the list horizontal and bigger */
+.nav-bar ul {
+    display: flex;
+    list-style: none;
+    gap: 50px;                      /* Large spacing between links */
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: #0b2d72;
+    font-weight: bold;
+    font-size: 1.4rem;              
+    transition: 0.3s ease-in-out;
+}
+
+.nav-bar a:hover {
+    color: #0AC4E0;                 
+}
+
+
+
